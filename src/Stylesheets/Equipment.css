@@ -1,0 +1,39 @@
+.table{
+    background-color: #5B5B5B;
+    position: absolute;
+    width: 70%;
+    top: 250px;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Equipmenttbl{
+    font-size: 20px;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+}
+.Equipmenttbl td, .Equipmenttbl th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+
+}
+
+.btndiv{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+}
+
+.btn{
+    color: #ED9D0A;
+    background-color: white;
+    padding: 10px;
+}
+
+.btn:hover{
+    color: #ED9D0A;
+    background-color: #5B5B5B;
+}
+
