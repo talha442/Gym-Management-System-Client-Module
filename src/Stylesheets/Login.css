@@ -1,0 +1,24 @@
+form {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.63);
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.63);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input{
+    border: 1px solid orange;
+}
+
+#sub_btn{
+    color: black;
+    background-color: orange;
+}
+
+#sub_btn:hover{
+    background-color: orange;
+    color: white;
+}

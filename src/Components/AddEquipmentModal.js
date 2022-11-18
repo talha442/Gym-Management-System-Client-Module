@@ -59,9 +59,8 @@ export class AddEquipmentModal extends Component {
                                         <Form.Control type="number" name="PurchasePrice" required
                                             placeholder='Purchase Price' />
                                     </Form.Group>
-
                                     <Form.Group>
-                                        <Button style={'border:1px Solid Orange'} type="submit" >
+                                        <Button type="submit" >
                                             Add Equipment
                                         </Button>
                                     </Form.Group>
@@ -69,15 +68,11 @@ export class AddEquipmentModal extends Component {
                             </Col>
                         </Row>
                     </Modal.Body>
-
                     <Modal.Footer>
-                        <Button variant="danger" onClick={this.props.onHide}>Close</Button>
+                        <Button onClick={this.props.onHide}>Close</Button>
                     </Modal.Footer>
-
                 </Modal>
-
             </div>
         )
     }
-
 }

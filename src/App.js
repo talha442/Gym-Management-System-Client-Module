@@ -11,15 +11,12 @@ function App() {
   return (
     <BrowserRouter>
       <div>
+        <Login/>
         {/* <Register/> */}
-        <Navigation />
-        {/* <Login/> */}
       </div>
       <div>
         <Switch>
-          {/* <Route exact path="/login" component={Login}></Route> */}
           <Route exact path="/navigation" component={Navigation}></Route>
-          {/* <Route path="/register" component={Register}></Route> */}
           <Route exact path="/equipment" component={Equipment} />
           <Route exact path="/Client" component={Client} />
         </Switch>
